@@ -4,7 +4,7 @@ We have set up a project for evaluating deepfake detection. Users can upload det
 
 The main evaluation features of the project are shown in the following figure.
 
-![1717401878074](C:\Users\86183\Documents\WeChat Files\wxid_jzg632s0j4dy22\FileStorage\Temp\1717401878074.png)
+![1717401878074](https://github.com/tempuser4567/DAP/tree/main/png/1.png)
 
 ## Dataset Introduction:
 
