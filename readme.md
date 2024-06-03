@@ -5,6 +5,8 @@ We have set up a project for evaluating deepfake detection. Users can upload det
 The main evaluation features of the project are shown in the following figure.
 
 ![image1](https://github.com/tempuser4567/DAP/tree/main/png/1.png)
+![image0](https://github.com/tempuser4567/DAP/tree/main/png/1.png)
+
 
 ## Dataset Introduction:
 
