@@ -28,71 +28,66 @@ Additionally, we have configured adversarial (adding adversarial noise) and evas
 
 Our data consists of three levels: video-level, frame-level, and face-level. The latter two are obtained by extracting frames and faces from the original videos, respectively, and are used to evaluate detection algorithms that target different inputs. The overall data structure is as follows:
 
+```text
 datasets
 ├── FaceForensics++
-│   ├── original_sequences
-│   │   ├── youtube
-│   │   │   ├── c23
-│   │   │   │   ├── videos
-│   │   │   │   │   └── *.mp4
-│   │   │   │   └── frames
-│   │   │   │   │   └── *.png
-|   |   |   |   └── faces
-│   │   │   │   │   └── *.png
-│   │   │   └── c40
-│   │   │   │   ├── ...
-│   │   ├── actors
-│   │   │   ├── ...
-│   ├── manipulated_sequences
-│   │   ├── Deepfakes
-│   │   │   ├── c23
-│   │   │   │   └── videos
-│   │   │   │   │   └── *.mp4
-│   │   │   │   └── frames
-│   │   │   │   │   └── *.png
-|   |   |   |   └── faces
-│   │   │   │   │   └── *.png
-│   │   │   └── c40
-│   │   │   │   ├── ...
-│   │   ├── Face2Face
-│   │   │   ├── ...
-│   │   ├── FaceSwap
-│   │   │   ├── ...
-│   │   ├── NeuralTextures
-│   │   │   ├── ...
-│   │   ├── FaceShifter
-│   │   │   ├── ...
-│   │   └── DeepFakeDetection
-│   │       ├── ...
-
+│ ├── original_sequences
+│ │ ├── youtube
+│ │ │ ├── c23
+│ │ │ │ ├── videos
+│ │ │ │ │ └── *.mp4
+│ │ │ │ └── frames
+│ │ │ │ │ └── *.png
+│ │ │ │ └── faces
+│ │ │ │ │ └── *.png
+│ │ │ └── c40
+│ │ │ │ ├── ...
+│ │ ├── actors
+│ │ │ ├── ...
+│ ├── manipulated_sequences
+│ │ ├── Deepfakes
+│ │ │ ├── c23
+│ │ │ │ └── videos
+│ │ │ │ │ └── *.mp4
+│ │ │ │ └── frames
+│ │ │ │ │ └── *.png
+│ │ │ └── c40
+│ │ │ │ ├── ...
+│ │ ├── Face2Face
+│ │ │ ├── ...
+│ │ ├── FaceSwap
+│ │ │ ├── ...
+│ │ ├── NeuralTextures
+│ │ │ ├── ...
+│ │ ├── FaceShifter
+│ │ │ ├── ...
+│ │ └── DeepFakeDetection
+│ │ ├── ...
+```
 Other datasets are similar to the above structure
 
 
 
 Our labeling structure is as follows:
 
+```
 datasets
 ├── FaceForensics++
-│   ├── videos
-│   │   ├── attribute
-│   │   │   └── FaceForensics++_fake_DeepFakeDetection_c23_videos.txt
-
-│   │   │   └── FaceForensics++_real_actors_c23_videos.txt
-
-│   │   │  └── ...
-│   │   └──FaceForensics++_real_videos.txt
-
-│   │   └──FaceForensics++_fake_videos.txt
-
-│   ├── frames
-
-│   │   ├── ...
-
-│   ├── faces
-
-│   │   ├── ...
+│ ├── videos
+│ │ ├── attribute
+│ │ │ └── FaceForensics++_fake_DeepFakeDetection_c23_videos.txt
+│ │ │ └── FaceForensics++_real_actors_c23_videos.txt
+│ │ │ └── ...
+│ │ └── FaceForensics++_real_videos.txt
+│ │ └── FaceForensics++_fake_videos.txt
+│ ├── frames
+│ │ ├── ...
+│ ├── faces
+│ │ ├── ...
+```
 
 The attributes folder contains data labels that provide detailed categorization based on specific attributes such as forgery methods, ethnicity, gender, and other characteristics.
+
 
 ### Test Annotations:
 
