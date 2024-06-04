@@ -4,7 +4,7 @@ We have set up a project for evaluating deepfake detection. Users can upload det
 
 The main evaluation features of the project are shown in the following figure.
 
-![image1](https://github.com/tempuser4567/DAP/tree/main/png/1.png)
+![image1](/png/1.png)
 
 
 ## Dataset Introduction:
@@ -32,7 +32,7 @@ We downloaded 11 datasets from open-source datasets to be used as public dataset
 
 The different attribute images included in the public dataset are as follows:
 
-![image2](https://github.com/tempuser4567/DAP/tree/main/png/2.png)
+![image2](/png/2.png)
 
 ### Self-constructed Dataset Introduction:
 
@@ -65,7 +65,7 @@ To test the robustness of the detection algorithm on augmented data, We have imp
 
 Additionally, we have configured adversarial (adding adversarial noise) and evasion (image reconstruction) algorithms to assess the security of detection algorithms when faced with malicious adversarial and evasion techniques.
 
-![image3](https://github.com/tempuser4567/DAP/tree/main/png/3.png)
+![image3](/png/3.png)
 
 ### Data and Label Organization Structure: 
 
@@ -185,39 +185,54 @@ We have configured some forgery algorithms and detection algorithms. Forgery alg
 
 Here we present some test results.
 
-![image6](https://github.com/tempuser4567/DAP/tree/main/png/6.png)
+![image6](/png/6.png)
 
-Benchmark_Performance_Evaluation
+<div align='center'>Benchmark_Performance_Evaluation</div>
+<br/>
+<br/>
+<br/>
 
+![image4](/png/4.png)
 
-![image4](https://github.com/tempuser4567/DAP/tree/main/png/4.png)
+<div align='center'>Lighting Condition of Attribute Bias</div>
+<br/>
+<br/>
+<br/>
 
-Lighting Condition of Attribute Bias
+![image5](/png/5.png)
 
+<div align='center'>Ethnic Group of Attribute Bias</div>
+<br/>
+<br/>
+<br/>
 
-![image5](https://github.com/tempuser4567/DAP/tree/main/png/5.png)
+![image7](/png/7.png)
 
-Ethnic Group of Attribute Bias
+<div align='center'>Forgery_Algorithm_Generalization_Evaluation</div>
+<br/>
+<br/>
+<br/>
 
+![image8](/png/8.png)
 
-![image7](https://github.com/tempuser4567/DAP/tree/main/png/7.png)
+<div align='center'>Image_Distortion_Robustness_Evaluation_(Compression)</div>
+<br/>
+<br/>
+<br/>
 
-Forgery_Algorithm_Generalization_Evaluation
+![image10](/png/10.png)
 
+<div align='center'>Adversarial_Attack_Resilience_Evaluation_(Adversarial_Perturbation)</div>
+<br/>
+<br/>
+<br/>
 
-![image8](https://github.com/tempuser4567/DAP/tree/main/png/8.png)
+![image11](/png/11.png)
 
-Image_Distortion_Robustness_Evaluation_(Compression)
-
-
-![image10](https://github.com/tempuser4567/DAP/tree/main/png/10.png)
-
-Adversarial_Attack_Resilience_Evaluation_(Adversarial_Perturbation)
-
-
-![image11](https://github.com/tempuser4567/DAP/tree/main/png/11.png)
-
-Forgery Localization Accuracy Evaluation
+<div align='center'>Forgery Localization Accuracy Evaluation</div>
+<br/>
+<br/>
+<br/>
 
 ## Instructions for Use
 
