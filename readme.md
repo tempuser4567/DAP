@@ -185,28 +185,33 @@ We have configured some forgery algorithms and detection algorithms. Forgery alg
 
 Here we present some test results.
 
+![image6](https://github.com/tempuser4567/DAP/tree/main/png/6.png)
+
+Benchmark_Performance_Evaluation
+
+
 ![image4](https://github.com/tempuser4567/DAP/tree/main/png/4.png)
 
 Lighting Condition of Attribute Bias
+
 
 ![image5](https://github.com/tempuser4567/DAP/tree/main/png/5.png)
 
 Ethnic Group of Attribute Bias
 
-![image6](https://github.com/tempuser4567/DAP/tree/main/png/6.png)
-
-Benchmark_Performance_Evaluation
 
 ![image7](https://github.com/tempuser4567/DAP/tree/main/png/7.png)
 
 Forgery_Algorithm_Generalization_Evaluation
 
+
 ![image8](https://github.com/tempuser4567/DAP/tree/main/png/8.png)
 
 Image_Distortion_Robustness_Evaluation_(Compression)
 
-![image9](https://github.com/tempuser4567/DAP/tree/main/png/9.png)
+
+![image10](https://github.com/tempuser4567/DAP/tree/main/png/10.png)
 
 Adversarial_Attack_Resilience_Evaluation_(Adversarial_Perturbation)
 
-![image10](https://github.com/tempuser4567/DAP/tree/main/png/10.png)
+
