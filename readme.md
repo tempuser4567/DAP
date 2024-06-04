@@ -67,7 +67,7 @@ Additionally, we have configured adversarial (adding adversarial noise) and evas
 
 ![image3](https://github.com/tempuser4567/DAP/tree/main/png/3.png)
 
-### Data Composition: 
+### Data and Label Organization Structure: 
 
 Our data consists of three levels: video-level, frame-level, and face-level. The latter two are obtained by extracting frames and faces from the original videos, respectively, and are used to evaluate detection algorithms that target different inputs. The overall data structure is as follows:
 
@@ -132,7 +132,7 @@ datasets
 The attributes folder contains data labels that provide detailed categorization based on specific attributes such as forgery methods, ethnicity, gender, and other characteristics.
 
 
-### Test Annotations:
+### The Dataset and Related Test Content:
 
 For evaluating detection algorithms, we select 10,000 real images and 10,000 forged images from the corresponding datasets for result testing.
 
@@ -165,7 +165,7 @@ Specific Functionality Testing: The test evaluates the special functionalities o
 
 ## Algorithms Introduction
 
-We have configured some forgery algorithms and detection algorithms. Forgery algorithms are used to generate data (see the introduction in the self-constructed dataset section), while detection algorithms are used to test metrics and provide baselines for existing detection algorithms. Currently, we have configured 10 forgery algorithms, listed as follows.
+We have configured some forgery algorithms and detection algorithms. Forgery algorithms are used to generate data (see the introduction in the self-constructed dataset section), while detection algorithms are used to test metrics and provide baselines for existing detection algorithms. Currently, we have configured 11 detection algorithms, listed as follows.
 
 | ID   | name               | function                             |
 | ---- | ------------------ | ------------------------------------ |
