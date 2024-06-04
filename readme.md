@@ -14,7 +14,21 @@ The dataset is primarily composed of three parts.: public datasets, self-constru
 
 ### Public Dataset Introduction:
 
-These public datasets include data from different deepfake algorithms, genders, ethnicities, expressions, lighting conditions, and camera angles, which can be used to evaluate the performance of detection algorithms in these specific areas. 
+We downloaded 11 datasets from open-source datasets to be used as public datasets. These public datasets include data from different deepfake algorithms, genders, ethnicities, expressions, lighting conditions, and camera angles, which can be used to evaluate the performance of detection algorithms in these specific areas.
+
+| Index | Name                |
+| :---- | :------------------ |
+| 1     | FaceForensics++     |
+| 2     | Celeb-DF v1         |
+| 3     | Celeb-DF v2         |
+| 4     | FakeAVCeleb         |
+| 5     | DeeperForensics-1.0 |
+| 6     | DFFD                |
+| 7     | CelebA              |
+| 8     | VGGface2            |
+| 9     | VidTIMIT            |
+| 10    | DFDC                |
+| 11    | Lav-DF              |
 
 ### Self-constructed Dataset Introduction:
 
