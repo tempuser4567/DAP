@@ -148,15 +148,15 @@ The specific test items and the corresponding datasets are shown in the table be
 
 The test content and metrics are as follows:
 
-Effectiveness Testing: The test evaluates the basic performance metrics of detection algorithms on a general dataset, including AUC, ACC, EER, F1/F2-score, confidence, and other indicators.
+Effectiveness Testing: The test evaluates the basic performance metrics of detection algorithms on a general dataset, including Acc, AUC,	EER,	Precision	Recall,	F1_score,	conf_diff,	ROC_curve and PR_curve.
 
-Specific Attribute Testing: The test assesses the detection capability on datasets with specific attributes.   (??? test metrics)
+Specific Attribute Testing: The test assesses the detection capability on datasets with specific attributes. The evaluation metrics are Accuracy, F1-score, AUC, and EER. 
 
-Generalization Testing: The test evaluates the generalization capability of detection algorithms.
+Generalization Testing: The test evaluates the generalization capability of detection algorithms. The evaluation metrics are Accuracy, F1-score, AUC, and EER. 
 
-Robustness Testing: The test assesses the robustness of detection algorithms when faced with traditional data modifications and enhancements.
+Robustness Testing: The test assesses the robustness of detection algorithms when faced with traditional data modifications and enhancements. The evaluation metrics are Accuracy, F1-score, AUC, and EER. 
 
-Security Testing: The test evaluates the detection capability of algorithms when facing malicious evasion and attack forgery data.
+Security Testing: The test evaluates the detection capability of algorithms when facing malicious evasion and attack forgery data. The evaluation metrics are Accuracy, F1-score, AUC, and EER. 
 
 Specific Functionality Testing: The test evaluates the special functionalities of detection algorithms, if they exist, such as forged region localization, fragment forgery detection, etc.
 
