@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 from PIL import Image
 sys.path.append(".")
 from utils import get_metrics, get_topdown, dict_append, read_result_vft
-from my_metrics import AP, AR
+from metrics import AP, AR
 from eval_box.module_map import module_map, module_map_reverse, type_map, type_map_reverse
 from ipdb import set_trace
 
@@ -20,8 +20,7 @@ class BackEndVideo():
     def __init__(self):
         self.root = os.path.abspath('.')
         self.users = os.path.join(self.root, 'users', 'video')
-        self.eval_box = ''
-
+        self.eval_box = os.path.join(self.root, 'eval_box')
         self.debug_box = os.path.join(self.root, 'debug_box')
         self.debug_data = os.path.join(self.debug_box, 'debug_data')
         self.debug_video_data = os.path.join(self.debug_box, 'debug_video_data')
