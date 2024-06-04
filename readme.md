@@ -138,28 +138,28 @@ For evaluating detection algorithms, we select 10,000 real images and 10,000 for
 
 The specific test items and the corresponding datasets are shown in the table below:
 
-| Test Content                   | Dataset                                   |
-| ------------------------------ | ----------------------------------------- |
-| Effectiveness Testing          | All public datasets                       |
-| Specific Attribute Testing     | Datasets with corresponding label files   |
-| Generalization Testing         | All self-constructed datasets             |
-| Robustness Testing             | Robustness processed dataset              |
-| Security Testing               | Adversarial and evasion processed dataset |
-| Specific Functionality Testing | Datasets with corresponding label files   |
+| Test Content                                | Dataset                                   |
+| ------------------------------------------- | ----------------------------------------- |
+| Benchmark Performance Evaluation            | All public datasets                       |
+| Attribute Bias Assessment                   | Datasets with corresponding label files   |
+| Forgery Algorithm Generalization Assessment | All self-constructed datasets             |
+| Image Distortion Robustness Assessment      | Robustness processed dataset              |
+| Adversarial Attack Resilience Evaluation    | Adversarial and evasion processed dataset |
+| Forgery Localization Accuracy Evaluation    | Datasets with corresponding label files   |
 
 The test content and metrics are as follows:
 
-Effectiveness Testing: The test evaluates the basic performance metrics of detection algorithms on a general dataset, including Acc, AUC,	EER,	Precision	Recall,	F1_score,	conf_diff,	ROC_curve and PR_curve.
+Benchmark Performance Evaluation: The test evaluates the basic performance metrics of detection algorithms on a general dataset, including AUC, ACC, EER, F1/F2-score, confidence, and other indicators.
 
-Specific Attribute Testing: The test assesses the detection capability on datasets with specific attributes. The evaluation metrics are Accuracy, F1-score, AUC, and EER. 
+Attribute Bias Assessment: The test assesses the detection capability on datasets with specific attributes.   (??? test metrics)
 
-Generalization Testing: The test evaluates the generalization capability of detection algorithms. The evaluation metrics are Accuracy, F1-score, AUC, and EER. 
+Forgery Algorithm Generalization Assessment: The test evaluates the generalization capability of detection algorithms.
 
-Robustness Testing: The test assesses the robustness of detection algorithms when faced with traditional data modifications and enhancements. The evaluation metrics are Accuracy, F1-score, AUC, and EER. 
+Image Distortion Robustness Assessment: The test assesses the robustness of detection algorithms when faced with traditional data modifications and enhancements.
 
-Security Testing: The test evaluates the detection capability of algorithms when facing malicious evasion and attack forgery data. The evaluation metrics are Accuracy, F1-score, AUC, and EER. 
+Adversarial Attack Resilience Evaluation: The test evaluates the detection capability of algorithms when facing malicious evasion and attack forgery data.
 
-Specific Functionality Testing: The test evaluates the special functionalities of detection algorithms, if they exist, such as forged region localization, fragment forgery detection, etc.
+Forgery Localization Accuracy Evaluation: The test evaluates the special functionalities of detection algorithms, if they exist, such as forged region localization, fragment forgery detection, etc.
 
 
 
