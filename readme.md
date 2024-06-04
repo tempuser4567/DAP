@@ -215,3 +215,9 @@ Image_Distortion_Robustness_Evaluation_(Compression)
 Adversarial_Attack_Resilience_Evaluation_(Adversarial_Perturbation)
 
 
+![image11](https://github.com/tempuser4567/DAP/tree/main/png/11.png)
+
+Forgery Localization Accuracy Evaluation
+
+## Instructions for Use
+
