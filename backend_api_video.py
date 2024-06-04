@@ -400,9 +400,6 @@ class BackEndVideo():
 
 
 if __name__ == '__main__':
-    # flask run -p8888
-    from concurrent.futures import ThreadPoolExecutor, as_completed
-    # import time
 
     tasks = [
         # ['4', '2', ["2_1_0_0"], ['video']],
