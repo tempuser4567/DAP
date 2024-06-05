@@ -229,13 +229,13 @@ Computing the Metrics: This step calculates the evaluation metrics to assess the
 
 Each of these steps includes breakpoints for detailed inspection and debugging, ensuring the evaluation process is thorough and accurate.
 
-## Presentation of Results
+## Evaluation of Results
 
 Here we present some test results.
 
 ![image6](/png/6.png)
 
-<div align='center'>Benchmark_Performance_Evaluation</div>
+<div align='center'>Benchmark Performance Evaluation</div>
 <br/>
 <br/>
 <br/>
@@ -256,21 +256,21 @@ Here we present some test results.
 
 ![image7](/png/7.png)
 
-<div align='center'>Forgery_Algorithm_Generalization_Evaluation</div>
+<div align='center'>Forgery Algorithm Generalization Evaluation</div>
 <br/>
 <br/>
 <br/>
 
 ![image8](/png/8.png)
 
-<div align='center'>Image_Distortion_Robustness_Evaluation_(Compression)</div>
+<div align='center'>Image Distortion Robustness Evaluation (Compression)</div>
 <br/>
 <br/>
 <br/>
 
 ![image10](/png/10.png)
 
-<div align='center'>Adversarial_Attack_Resilience_Evaluation_(Adversarial_Perturbation)</div>
+<div align='center'>Adversarial Attack Resilience Evaluation (Adversarial Perturbation)</div>
 <br/>
 <br/>
 <br/>
