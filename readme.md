@@ -186,6 +186,49 @@ We have configured some forgery algorithms and detection algorithms. Forgery alg
 | 10   | ClassNSeg          | Detecting forged regions             |
 | 11   | BA-TFD             | Detecting forged segments            |
 
+
+## How to Start
+
+**1、Installation**
+
+Run the following script to install necessary environment:
+
+```
+conda create -f env.yaml -n DAP
+```
+
+or create your own conda virtual environment and run:
+
+```
+pip install -r requirements.txt
+ ```
+ 
+**2、Evaluation**
+
+First you need to put your deepfake detection model in folder ‘./user’.
+
+Then, a base Docker image is needed to create the Docker container required for running the model. You can apply for the image's tar file by filling out this form( https://forms.gle/c3HnnpvQWstYzrdc8 ). Once you have received the tar file, you can import the base image using the following command:
+
+```
+docker load -i base_docker.tar
+```
+ 
+Finally, run the following command:
+
+```
+python backend_api_video.py
+```
+
+Inside the backend_api_video.py file, the following key processes will be executed:
+
+Debugging the Algorithm: This step involves running a debug process to ensure that the algorithm is functioning correctly.
+
+Running the Evaluation: This step initiates the evaluation process for your deepfake detection model.
+
+Computing the Metrics: This step calculates the evaluation metrics to assess the performance of your model.
+
+Each of these steps includes breakpoints for detailed inspection and debugging, ensuring the evaluation process is thorough and accurate.
+
 ## Presentation of Results
 
 Here we present some test results.
