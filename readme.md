@@ -205,7 +205,7 @@ pip install -r requirements.txt
  
 **2、Evaluation**
 
-First you need to put your deepfake detection model in folder ‘./user’.
+First you need to put your deepfake detection model in folder './user'.
 
 Then, a base Docker image is needed to create the Docker container required for running the model. You can apply for the image's tar file by filling out this form( https://forms.gle/c3HnnpvQWstYzrdc8 ). Once you have received the tar file, you can import the base image using the following command:
 
@@ -221,7 +221,7 @@ python backend_api_video.py
 
 Inside the backend_api_video.py file, the following key processes will be executed:
 
-Debugging the Algorithm: This step involves running a debug process to ensure that the algorithm is functioning correctly.
+Debugging the Algorithm: This step involves running a debug process to ensure that scripts of the model are functioning correctly.
 
 Running the Evaluation: This step initiates the evaluation process for your deepfake detection model.
 
