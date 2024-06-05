@@ -187,7 +187,7 @@ We have configured some forgery algorithms and detection algorithms. Forgery alg
 | 11   | BA-TFD             | Detecting forged segments            |
 
 
-## How to Start
+## Instructions for Use
 
 **1、Installation**
 
@@ -281,6 +281,4 @@ Here we present some test results.
 <br/>
 <br/>
 <br/>
-
-## Instructions for Use
 
