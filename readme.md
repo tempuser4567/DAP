@@ -154,17 +154,17 @@ The specific test items and the corresponding datasets are shown in the table be
 
 The test content and metrics are as follows:
 
-**1、Benchmark Performance Evaluation:** The test evaluates the basic performance metrics of detection algorithms on a general dataset, including AUC, ACC, EER, F1/F2-score, confidence, and other indicators.
+**1. Benchmark Performance Evaluation:** The test evaluates the basic performance metrics of detection algorithms on a general dataset, including AUC, ACC, EER, F1/F2-score, confidence, and other indicators.
 
-**2、Attribute Bias Assessment:** The test assesses the detection capability on datasets with specific attributes.   (??? test metrics)
+**2. Attribute Bias Assessment:** The test assesses the detection capability on datasets with specific attributes.   (??? test metrics)
 
-**3、Forgery Algorithm Generalization Assessment:** The test evaluates the generalization capability of detection algorithms.
+**3. Forgery Algorithm Generalization Assessment:** The test evaluates the generalization capability of detection algorithms.
 
-**4、Image Distortion Robustness Assessment:** The test assesses the robustness of detection algorithms when faced with traditional data modifications and enhancements.
+**4. Image Distortion Robustness Assessment:** The test assesses the robustness of detection algorithms when faced with traditional data modifications and enhancements.
 
-**5、Adversarial Attack Resilience Evaluation:** The test evaluates the detection capability of algorithms when facing malicious evasion and attack forgery data.
+**5. Adversarial Attack Resilience Evaluation:** The test evaluates the detection capability of algorithms when facing malicious evasion and attack forgery data.
 
-**6、Forgery Localization Accuracy Evaluation:** The test evaluates the special functionalities of detection algorithms, if they exist, such as forged region localization, fragment forgery detection, etc.
+**6. Forgery Localization Accuracy Evaluation:** The test evaluates the special functionalities of detection algorithms, if they exist, such as forged region localization, fragment forgery detection, etc.
 
 
 
@@ -189,7 +189,7 @@ We have configured some forgery algorithms and detection algorithms. Forgery alg
 
 ## Instructions for Use
 
-**1、Installation**
+**1. Installation**
 
 Run the following script to install necessary environment:
 
@@ -203,7 +203,7 @@ or create your own conda virtual environment and run:
 pip install -r requirements.txt
  ```
  
-**2、Evaluation**
+**2. Evaluation**
 
 First you need to put your deepfake detection model in folder './user'.
 
