@@ -154,15 +154,15 @@ The specific test items and the corresponding datasets are shown in the table be
 
 The test content and metrics are as follows:
 
-**1. Benchmark Performance Evaluation:** The test evaluates the basic performance metrics of detection algorithms on a general dataset, including AUC, ACC, EER, F1/F2-score, confidence, and other indicators.
+**1. Benchmark Performance Evaluation:** The test evaluates the basic performance metrics of detection algorithms on a general dataset, including AUc,	ACC,	EER,	Precision,	Recall,	F1_score,	conf_diff and	ROC_curve PR_curve.
 
-**2. Attribute Bias Assessment:** The test assesses the detection capability on datasets with specific attributes.   (??? test metrics)
+**2. Attribute Bias Assessment:** The test assesses the detection capability on datasets with specific attributes. Metrics are Auc, Acc, EER and F1-score.
 
-**3. Forgery Algorithm Generalization Assessment:** The test evaluates the generalization capability of detection algorithms.
+**3. Forgery Algorithm Generalization Assessment:** The test evaluates the generalization capability of detection algorithms. Metrics are Auc, Acc, EER and F1-score.
 
-**4. Image Distortion Robustness Assessment:** The test assesses the robustness of detection algorithms when faced with traditional data modifications and enhancements.
+**4. Image Distortion Robustness Assessment:** The test assesses the robustness of detection algorithms when faced with traditional data modifications and enhancements. Metrics are Auc, Acc, EER and F1-score.
 
-**5. Adversarial Attack Resilience Evaluation:** The test evaluates the detection capability of algorithms when facing malicious evasion and attack forgery data.
+**5. Adversarial Attack Resilience Evaluation:** The test evaluates the detection capability of algorithms when facing malicious evasion and attack forgery data. Metrics are Auc, Acc, EER and F1-score.
 
 **6. Forgery Localization Accuracy Evaluation:** The test evaluates the special functionalities of detection algorithms, if they exist, such as forged region localization, fragment forgery detection, etc.
 
