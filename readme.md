@@ -11,7 +11,7 @@ The main evaluation features of the project are shown in the following figure.
 
 The dataset is primarily composed of three parts.: public datasets, self-constructed datasets and specially processed dataset. The public datasets include **11 open-source datasets**. 
 
-The self-constructed dataset is generated using deepfake algorithms and includes 3 face-swapping algorithms, 2 facial reenactment algorithms, 2 facial attribute manipulation algorithms, 4 entire face synthesis algorithms, 4 text-to-image algorithms, and 1 image-to-video algorithm, totaling **16 deepfake algorithms**. 
+The self-constructed dataset is generated using deepfake algorithms and includes **3 face-swapping algorithms**, **2 facial reenactment algorithms**, **2 facial attribute manipulation algorithms**, **4 entire face synthesis algorithms**, **4 text-to-image algorithms**, and **1 image-to-video algorithm**, totaling **16 deepfake algorithms**. 
 
 The specially processed dataset is primarily generated using various **data augmentation and adversarial evasion techniques**. It is used to evaluate the robustness and adversarial attack resilience of detection algorithms.
 
